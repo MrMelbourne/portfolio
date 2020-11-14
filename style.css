@@ -19,10 +19,8 @@
      margin: 0; 
     padding: 0;
           display: flex;
-    
     margin: 0 auto; 
     padding: 0 3em 1.5em;     
-       
     }
     
     nav a {
@@ -40,7 +38,6 @@
         flex: 1;
         display: flex;
         height: auto;
-    
     }
     
     .menu {
