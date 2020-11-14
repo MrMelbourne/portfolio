@@ -38,6 +38,9 @@
     
     container {
         flex: 1;
+        display: flex;
+        height: auto;
+    
     }
     
     .menu {
