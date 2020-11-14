@@ -2,13 +2,6 @@
 /* Basic styling */
 
 
-.img{
-    height: 100%;
-    width: 50%;
-    background: url('https://www.sydney.com/sites/sydney/files/styles/open_graph/public/2019-10/165838.jpg?itok=c6tTIgTv') no-repeat center center;
-    background-size: cover
-  }
-    
     h1 {
     color: goldenrod;
     font-size: 40px;    
