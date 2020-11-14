@@ -1,26 +1,34 @@
 
+/* Basic styling */
 
 h1 {
-    color: orange;
+    color: white;
     font-size: 40px;    
     }
     
     body {
         font-family: georgia;
         font-size: 15px;
+        display: flex;
+        min-height: 100vh;
+        flex-direction: column;
     }
     nav {
-    background: #333;
-    padding: 0 15px;
-    list-style: none; 
-    margin: 0; 
+        background: #333;
+        padding: 0 15px;
+        list-style: none; 
+     margin: 0; 
     padding: 0;
-    display: flex;
+          display: flex;
+    
     margin: 0 auto; 
     padding: 0 3em 1.5em;     
-        
+       
     }
     
+    .container {
+        flex: 1;    /* same as flex-grow: 1; */
+    }
     
     nav a {
     display: inline-block; 
@@ -48,7 +56,11 @@ h1 {
         padding: 0px;
       }
        
-    
+    .page-main {
+    width: 100%
+    padding: 10px;
+    background: orange;
+    }
     
     .box {
     width: 100px;
@@ -64,7 +76,9 @@ h1 {
     .page-footer {
       display: flex;
         flex-direction: column;
-    background: green;    
+    background: green;   
+    display: flex;
+        flex-wrap: wrap;    
     }
-
+    
     
