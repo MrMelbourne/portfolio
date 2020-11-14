@@ -8,10 +8,9 @@ h1 {
     
     body {
         font-family: georgia;
-        font-size: 15px;
-        display: flex;
+        font-size: 10px;
         min-height: 100vh;
-        flex-direction: column;
+       
     }
     nav {
         background: #333;
@@ -26,10 +25,6 @@ h1 {
        
     }
     
-    .container {
-        flex: 1;    /* same as flex-grow: 1; */
-    }
-    
     nav a {
     display: inline-block; 
     width: 100%; 
@@ -38,47 +33,43 @@ h1 {
     letter-spacing: 10px; 
     font-size: 25px;    
     margin: 0; 
-    padding: 0; 
-        
+    padding: 0;     
     }
+    
+    container {
+        flex: 1;
+    }
+    
     .menu {
        justify-content: space-between;     
     }
-    
-    
-    .wrapper {
-        display: flex;
-        flex-direction: column;
-        min-height: 100vh;
-        flex-direction: column;
-    }
-    .wrapper > * {
-        padding: 0px;
-      }
        
-    .page-main {
-    width: 100%
-    padding: 10px;
-    background: orange;
-    }
-    
     .box {
-    width: 100px;
-    height: 100px;
+    width: 99%;
+    height: 200px;
     margin: 5px;
-    background: lightblue;    
+    background: orange;  
+    
     }
     
     h3 {
     font-size: 30px;    
     }
     
+    .page-main {
+    width: 100%
+    padding: 10px;
+    background: green;
+    }
+    
     .page-footer {
+        letter-spacing: 10px; 
+    font-size: 25px;    
+    margin: 0; 
+    padding: 10px; 
       display: flex;
         flex-direction: column;
-    background: green;   
-    display: flex;
-        flex-wrap: wrap;    
+    background: green;    
     }
     
     
