@@ -90,6 +90,26 @@ align-items: center;
         flex-direction: column;
     background: green;    
     }
+
+     /* This section is for the override of graphical elements */
+
+    .item1 {
+        background-color: blue;    
+        }
+
+        .item2 {
+            background-color: orange;    
+            }
+
+            .item3 {
+                background-color: red;    
+                }
+
+                .item4 {
+                    background-color: yellow;    
+                    }
+
+
     
 
 
@@ -105,4 +125,25 @@ and (orientation: portrait) {
 max-width: 375px;
 max-height: 812px;    
 }
+}
+
+@media (min-width:768px) {
+    .img {
+        max-width: 240px;
+        max-height: 240px;
+    }
+}
+
+@media (min-width:992px) {
+    .img {
+        max-width: 314px;
+        max-height: 314px;
+    }
+}
+
+@media (min-width:1200px) {
+    .img {
+        max-width: 380px;
+        max-height: 380px;
+    }
 }
