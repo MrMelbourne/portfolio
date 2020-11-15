@@ -92,33 +92,3 @@ align-items: center;
     }
     
 
-
-/* This section is the media queries */
-
-    @media (max-width:731px) {
-        .img {
-            max-width: 240px;
-            max-height: 240px;
-        }
-    }
-    
-    @media (min-width:731px) {
-        .img {
-            max-width: 240px;
-            max-height: 240px;
-        }
-    }
-    
-    @media (min-width:992px) {
-        .img {
-            max-width: 314px;
-            max-height: 314px;
-        }
-    }
-    
-    @media (min-width:1200px) {
-        .img {
-            max-width: 380px;
-            max-height: 380px;
-        }
-    }
