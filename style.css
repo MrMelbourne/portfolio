@@ -93,11 +93,6 @@ align-items: center;
     
 
 
-
-/* This section is the image styling on blogs. It is here graphical component override of the standard CSS defaults occur*/
-
-
-
 /* This section is the media queries */
 
     @media (max-width:767px) {
