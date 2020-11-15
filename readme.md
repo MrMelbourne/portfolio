@@ -21,8 +21,7 @@ As well as information surrounding my coding languages, it features a profession
 
 Sitemap
 
-![alt text](https://github.com/[MrMelbourne]/[Portfolio]/blob/[branch]/sitemap.png?raw=true)
- 
+![alt text](https://github.com/[MrMelbourne]/[Portfolio]/blob/[branch]/sitemap.png)
 
 Screenshots
 
