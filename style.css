@@ -27,13 +27,14 @@ align-items: center;
     padding: 0 3em 1.5em;     
     }
     
-/* This section involves 4 graphical overrides of the defaults when it comes to the color, font-size, letter spacing, and padding of the text */
+/* This section involves numerous (over 4) graphical overrides of the defaults when it comes to the color, font-size, letter spacing, and padding of the text */
 
     nav a {
     display: inline-block; 
     width: 100%; 
     flex: 3;   
     color: white;
+    font-weight: bold;
     letter-spacing: 10px; 
     font-size: 25px;    
     margin: 0; 
