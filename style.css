@@ -27,6 +27,8 @@ align-items: center;
     padding: 0 3em 1.5em;     
     }
     
+/* This section involves 4 graphical overrides of the defaults when it comes to the color, font-size, letter spacing, and padding of the text */
+
     nav a {
     display: inline-block; 
     width: 100%; 
@@ -91,7 +93,8 @@ align-items: center;
     
 
 
-/* This section is the media queries */
+
+/* This section is the image styling on blogs. It is here graphical component override of the standard CSS defaults occur*/
 
     .item {
         max-width: 100%;
@@ -99,24 +102,16 @@ align-items: center;
         height: auto !important;
     }
 
-    .item1 {
-        background-color: blue;    
-        }
 
-        .item2 {
-            background-color: orange;    
-            }
-
-            .item1 {
-                background-color: red;    
-                }
-
-                .item1 {
-                    background-color: yellow;    
-                    }
+/* This section is the media queries */
 
 
-
+@media only screen 
+    and (min-device-width: 375px) 
+    and (min-device-height: 812px) 
+    and (-webkit-device-pixel-ratio: 3)
+    and (orientation: portrait) { 
+}
     
     @media (max-width:767px) {
         .img {
