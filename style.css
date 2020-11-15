@@ -101,6 +101,8 @@ and (min-device-width: 375px)
 and (min-device-height: 812px) 
 and (-webkit-device-pixel-ratio: 3)
 and (orientation: portrait) { 
+.img {
 max-width: 375px;
-max-height: 812px;
+max-height: 812px;    
+}
 }
