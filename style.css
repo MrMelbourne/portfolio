@@ -1,4 +1,7 @@
 
+/* This section concerns the header */
+
+
 header {
 display:grid;
 grid-template-columns: 1.5fr 1fr;
@@ -10,11 +13,9 @@ align-items: center;
     font-size: 40px;    
     }
     
-    body {
-        font-family: georgia;
-        font-size: 10px;
-        min-height: 100vh;
-    }
+
+ /* This section is the navbar and its links  */
+
     nav {
         background: #333;
         padding: 0 15px;
@@ -37,6 +38,16 @@ align-items: center;
     padding: 0;     
     }
     
+ /* This section is the body/container and its associated styling  */
+
+    body {
+        font-family: georgia;
+        font-size: 10px;
+        min-height: 100vh;
+    }
+
+
+
     container {
         flex: 1;
         display: flex;
@@ -64,6 +75,9 @@ align-items: center;
     padding: 10px;
     background: green;
     }
+
+
+    /* This section is the footer  */
     
     .page-footer {
         letter-spacing: 10px; 
@@ -75,11 +89,34 @@ align-items: center;
     background: green;    
     }
     
+
+
+/* This section is the media queries */
+
     .item {
         max-width: 100%;
         width: 100%;
         height: auto !important;
     }
+
+    .item1 {
+        background-color: blue;    
+        }
+
+        .item2 {
+            background-color: orange;    
+            }
+
+            .item1 {
+                background-color: red;    
+                }
+
+                .item1 {
+                    background-color: yellow;    
+                    }
+
+
+
     
     @media (max-width:767px) {
         .img {
