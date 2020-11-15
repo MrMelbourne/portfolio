@@ -21,7 +21,8 @@ As well as information surrounding my coding languages, it features a profession
 
 Sitemap
 
-![Alt text](/relative/path/to/sitemap.png?raw=true "Optional Title")
+![alt text](https://github.com/[MrMelbourne]/[Portfolio]/blob/[branch]/sitemap.png?raw=true)
+
 
 Screenshots
 
