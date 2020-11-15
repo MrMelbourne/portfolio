@@ -93,19 +93,19 @@ align-items: center;
 
      /* This section is for the override of graphical elements */
 
-    .item1 {
+    .visual1 {
         background-color: blue;    
         }
 
-        .item2 {
+        .visual2 {
             background-color: orange;    
             }
 
-            .item3 {
+            .visual3 {
                 background-color: red;    
                 }
 
-                .item4 {
+                .visual4 {
                     background-color: yellow;    
                     }
 
