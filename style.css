@@ -96,11 +96,6 @@ align-items: center;
 
 /* This section is the image styling on blogs. It is here graphical component override of the standard CSS defaults occur*/
 
-    .item {
-        max-width: 100%;
-        width: 100%;
-        height: auto !important;
-    }
 
 
 /* This section is the media queries */
